@@ -1,0 +1,113 @@
+
+body {
+  padding-top: 70px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+
+/***** HOME PAGE NAV *****/
+
+.mainLinks a {
+  color: #ffffff !important;
+  font-size: 19.5px;
+  padding: 7px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+}
+
+.active {
+  text-decoration: none;
+}
+
+.mainLinks li {
+  display: inline;
+  position: relative;
+  top: 35px;
+  left: -77px;
+}
+
+.logo img {
+  width: 73px;
+  height: 56px;
+}
+
+.logo {
+  position: relative;
+  float: right;
+  top: 13px;
+  left: 25px;;
+}
+
+#homeSection img {
+  position: relative;
+  top: 80px;
+  width: 100%;
+}
+
+.navbar {
+  color: transparent;
+  height: 80px;
+}
+
+/***** ABOUT PAGE *****/
+
+h1 {
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  font-size: 40px;
+}
+
+#aboutSection {
+  margin-top: -20px;
+  width: 100%;
+  height: 500px;
+  background-color: grey;
+}
+
+
+/***** SUPPORT PAGE *****/
+
+#supportSection {
+  margin-top: -33px;
+  width: 100%;
+  height: 500px;
+  background-color: lightgrey;
+}
+
+
+
+
+/***** KONNECT PAGE *****/
+
+#konnectSection {
+  margin-top: -33px;
+  width: 100%;
+  height: 500px;
+  background-color: darkgray;
+}
+
+
+/***** FOOTER PAGE *****/
+
+#footerSection {
+  width: 100%;
+  height: 500px;
+  background-color: rgb(0, 204, 211);
+  color: black;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0 10px 0;
+  font-size: 17.5px;
+}
+
+#footerSection small {
+  position: relative;
+  top: 445px;
+}
+
