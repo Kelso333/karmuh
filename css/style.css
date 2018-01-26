@@ -9,10 +9,6 @@ html, body {
   clear: both;
 }
 
-div .container {
-  background-color: blue;
-}
-
 /***** HOME PAGE NAV *****/
 
 .mainLinks a {
@@ -34,14 +30,24 @@ a:link {
   left: -77px;
 }
 
+.logo {
+  position: relative;
+  top: 11px;
+  left: 760px;
+ } 
+
 .logo img {
-  width: 69px;
-  height: 56px;
-}
+  width: 62px;
+  height: 50px;
+} 
 
 #homeSection img {
-  position: relative;
   width: 100%;
+}
+
+.navbar {
+  background: transparent;
+  height: 100px;
 }
 
 
