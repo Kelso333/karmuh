@@ -1,6 +1,5 @@
 
 body {
-  padding-top: 70px;
   background-color: black;
 }
 
@@ -8,6 +7,10 @@ html, body {
   margin: 0;
   padding: 0;
   clear: both;
+}
+
+div .container {
+  background-color: blue;
 }
 
 /***** HOME PAGE NAV *****/
@@ -20,8 +23,8 @@ html, body {
   font-weight: 300;
 }
 
-.active {
-  text-decoration: none;
+a:link {
+  background-color: red !important;
 }
 
 .mainLinks li {
@@ -41,9 +44,6 @@ html, body {
   width: 100%;
 }
 
-.navbar {
-  height: 80px;
-}
 
 /***** ABOUT PAGE *****/
 
