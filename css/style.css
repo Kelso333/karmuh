@@ -12,6 +12,7 @@ html, body {
 /***** HOME PAGE NAV *****/
 
 .mainLinks a {
+  text-decoration: none;
   color: #ffffff !important;
   font-size: 19.5px;
   padding: 7px;
@@ -19,8 +20,7 @@ html, body {
   font-weight: 300;
 }
 
-a:link {
-  background-color: red !important;
+a:hover {
 }
 
 .mainLinks li {
@@ -46,6 +46,10 @@ a:link {
 }
 
 .navbar-default {
+  background-color: transparent !important;
+}
+
+a.nav-link.scroll {
   background-color: transparent !important;
 }
 
