@@ -45,9 +45,8 @@ a:link {
   width: 100%;
 }
 
-.navbar {
-  background: transparent;
-  height: 100px;
+.navbar-default {
+  background-color: transparent !important;
 }
 
 
