@@ -51,6 +51,7 @@ a:hover {
 
 a.nav-link.scroll {
   background-color: transparent !important;
+  text-decoration: none;
 }
 
 
