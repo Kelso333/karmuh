@@ -11,29 +11,22 @@ html, body {
 
 /***** HOME PAGE NAV *****/
 
-.mainLinks a {
+ .mainLinks ul li {
+   padding: 7px;
   text-decoration: none;
-  color: #ffffff !important;
   font-size: 19.5px;
-  padding: 7px;
   font-family: 'Rubik', sans-serif;
-  font-weight: 300;
-}
-
-a:hover {
-}
-
-.mainLinks li {
+  font-weight: 300; 
   display: inline;
   position: relative;
-  top: 35px;
+  top: 30px;
   left: -77px;
-}
+} 
 
 .logo {
   position: relative;
-  top: 17px;
-  left: 760px;
+  top: 25px;
+  left: 757px;
  } 
 
 .logo img {
@@ -53,7 +46,6 @@ a.nav-link.scroll {
   background-color: transparent !important;
   text-decoration: none;
 }
-
 
 /***** ABOUT PAGE *****/
 
