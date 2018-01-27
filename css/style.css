@@ -31,7 +31,7 @@ html, body {
 
 .logo img {
   width: 62px;
-  height: 50px;
+  height: 55px;
 } 
 
 #homeSection img {
@@ -50,7 +50,6 @@ a.nav-link.scroll {
 /***** ABOUT PAGE *****/
 
 h1 {
-  color: white;
   font-family: 'Rubik', sans-serif;
   font-size: 40px;
 }
@@ -62,6 +61,12 @@ h1 {
   background-color: grey;
 }
 
+.karmaIsNow {
+  position: relative;
+  top: 110px;
+  text-align: center;
+}
+
 #circleOne, #circleTwo, #circleThree {
   width: 300px;
   height: 300px;
@@ -70,7 +75,7 @@ h1 {
 }
 
 #circleOne {
-  margin-top: 60px;
+  margin-top: 180px;
   margin-left: 60px;
 }
 
@@ -85,7 +90,10 @@ h1 {
 }
 
 p.text {
+  font-family: 'Rubik', sans-serif;
   text-align: center;
+  position: relative;
+  top: 100px;
 }
 
 
