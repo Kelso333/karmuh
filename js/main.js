@@ -27,7 +27,17 @@ $(document).ready(function() {
     });
   });
   // Hover circles for quotes
+  $(document).ready(function() {
+    var quote = $('.text');
 
+    quote.hover(function() {
+      $(this).hide();
+    },
+    function() {
+      $(this).show();
+    }
+    )
+  });
 
 
 
