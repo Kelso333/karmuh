@@ -29,3 +29,6 @@ $(document).ready(function() {
 
   });
 });
+
+// Hover circles for quotes
+
