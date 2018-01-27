@@ -71,17 +71,21 @@ h1 {
 
 #circleOne {
   margin-top: 60px;
-  margin-left: 40px;
+  margin-left: 60px;
 }
 
 #circleTwo {
-  margin-top: -200px;
-  margin-left: 445px;
+  margin-top: -297px;
+  margin-left: 480px;
 }
 
 #circleThree {
-  margin-top: -30px;
-  margin-left: 880px;
+  margin-top: -299px;
+  margin-left: 895px;
+}
+
+p.text {
+  text-align: center;
 }
 
 
