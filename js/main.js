@@ -9,7 +9,7 @@ $(document).ready(function() {
     $('body,html').animate({
       scrollTop: $(this.hash).offset().top
     }, 700);
-  });
+  }); // end of click 
 
 
   // Active link switching
@@ -24,18 +24,13 @@ $(document).ready(function() {
         $(this).parent().addClass('active');
         $(this).parent().siblings().removeClass('active');
       }
-
     });
-
   });
-});
+  // Hover circles for quotes
 
-// Hover circles for quotes
 
-$(document).ready(function() {
 
-  var quote = $('.text');
 
-  quote.hide();
+}); // end of ready 
 
-});
+
