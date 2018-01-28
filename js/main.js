@@ -28,13 +28,13 @@ $(document).ready(function() {
   });
   // Hover circles for quotes
   $(document).ready(function() {
-    var quote = $('.text');
-
-    quote.hide(function() { 
-     $('#circleOne').hover(function() {
-       quote.show();
-     })
-    });
+   
+    // var quote = $('.text');
+    // quote.hide(function() { 
+    //  $('#circleOne').hover(function() {
+    //    quote.show();
+    //  })
+    // });
 
   });
 
