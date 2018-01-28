@@ -30,13 +30,12 @@ $(document).ready(function() {
   $(document).ready(function() {
     var quote = $('.text');
 
-    quote.hover(function() {
-      $(this).hide();
-    },
-    function() {
-      $(this).show();
-    }
-    )
+    quote.hide(function() { 
+     $('#circleOne').hover(function() {
+       quote.show();
+     })
+    });
+
   });
 
 
