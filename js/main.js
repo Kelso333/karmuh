@@ -26,18 +26,20 @@ $(document).ready(function() {
       }
     });
   });
+  
   // Hover circles for quotes
-  $(document).ready(function() {
-   
+
+    // var quotes = [  "Hustle to give, not to receive." + <br/> + "- KRMH",
+    //                 "Kill The Ego." + <br/> + "- KRMH"
+    //               ];
+
+             
     // var quote = $('.text');
     // quote.hide(function() { 
     //  $('#circleOne').hover(function() {
     //    quote.show();
     //  })
     // });
-
-  });
-
 
 
 }); // end of ready 

@@ -116,6 +116,7 @@ p.text {
 }
 
 .support h1 {
+  font-family: 'Rubik', sans-serif;
   position: relative;
   top: 500px;
   text-align: center;
@@ -134,10 +135,18 @@ p.text {
 }
 
 .konnectBg img {
-  margin-top: -50px;
+  margin-top: -87px;
   width: 100%;
   height: 801px;
   opacity: 1;
+}
+
+.konnect h1 {
+  position: relative;
+  top: 500px;
+  text-align: center;
+  font-size: 70px;
+  color: white; 
 }
 
 
@@ -146,7 +155,7 @@ p.text {
 #footerSection {
   width: 100%;
   height: 70px;
-  background-color: rgb(0, 204, 211);
+  background-color: rgb(231, 227, 0);
   color: black;
   font-family: 'Rubik', sans-serif;
   font-weight: 300;
