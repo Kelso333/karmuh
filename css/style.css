@@ -69,7 +69,7 @@ a.nav-link.scroll {
   color: white;
 }
 
-#circleOne, #circleTwo, #circleThree {
+#circleTwo, #circleThree {
   position: relative;
   width: 300px;
   height: 300px;
@@ -78,14 +78,19 @@ a.nav-link.scroll {
 }
 
 #circleOne {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  border-radius: 50%;
   margin-top: 180px;
   margin-left: 60px;
-  border: 1px solid transparent;
+  border: 2.5px solid rgb(161, 129, 165);
   transition: border 1s linear, box-shadow 1s linear;
 }
 
 #circleOne.active {
-  box-shadow: 0 0 45px rgba(121, 4, 145, 0.795);
+  box-shadow: 0 0 180px rgba(121, 4, 145, 0.795);
 }
 
 #circleTwo {

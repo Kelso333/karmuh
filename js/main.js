@@ -29,11 +29,15 @@ $(document).ready(function() {
   
   // Circle glow effect
   
-    var glow = $('#circleOne');
+    var glowOne = $('#circleOne');
     window.setInterval(function() {
-      glow.toggleClass('active');
+      glowOne.toggleClass('active');
     }, 2000);
 
+
+  // Show quotes (hover or loop)
+
+    
 
 
 }); // end of ready 
