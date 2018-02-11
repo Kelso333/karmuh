@@ -27,8 +27,14 @@ $(document).ready(function() {
     });
   });
   
-  // Hover circles for quotes
-    
+  // Circle glow effect
+  
+    var glow = $('#circleOne');
+    window.setInterval(function() {
+      glow.toggleClass('active');
+    }, 2000);
+
+
 
 }); // end of ready 
 
