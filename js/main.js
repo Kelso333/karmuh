@@ -29,7 +29,7 @@ $(document).ready(function() {
   
   // Circle glow effect
   
-    var glowOne = $('#circleOne');
+    var glowOne = $('.circles');
     window.setInterval(function() {
       glowOne.toggleClass('active');
     }, 2000);
@@ -46,7 +46,7 @@ $(document).ready(function() {
         quotes.eq(quoteIndex % quotes.length)
         .fadeIn(3000)
         .delay(500)
-        .fadeOut(1000, displayNewQuote);
+        .fadeOut(1200, displayNewQuote);
       }
 
     displayNewQuote();
