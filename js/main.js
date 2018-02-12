@@ -35,9 +35,10 @@ $(document).ready(function() {
     }, 2000);
 
 
-  // Show quotes (hover or loop)
-
-    
+  // Show quotes
+    $(document).ready(function() {
+      $('.quoteOne').hide();
+    });    
 
 
 }); // end of ready 
