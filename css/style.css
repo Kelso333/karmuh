@@ -69,14 +69,6 @@ a.nav-link.scroll {
   color: white;
 }
 
-#circleTwo, #circleThree {
-  position: relative;
-  width: 300px;
-  height: 300px;
-  background-color: black;
-  border-radius: 50%;
-}
-
 #circleOne {
   position: relative;
   width: 300px;
@@ -94,13 +86,36 @@ a.nav-link.scroll {
 }
 
 #circleTwo {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  border-radius: 50%;
   margin-top: -297px;
   margin-left: 480px;
+  border: 2.5px solid rgb(161, 129, 165);
+  transition: border 1s linear, box-shadow 1s linear;
 }
 
+#circleTwo.active {
+  box-shadow: 0 0 180px rgba(121, 4, 145, 0.795);
+}
+
+
 #circleThree {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  border-radius: 50%;
   margin-top: -299px;
   margin-left: 895px;
+  border: 2.5px solid rgb(161, 129, 165);
+  transition: border 1s linear, box-shadow 1s linear;
+}
+
+#circleThree.active {
+  box-shadow: 0 0 180px rgba(121, 4, 145, 0.795);
 }
 
 p.text {
