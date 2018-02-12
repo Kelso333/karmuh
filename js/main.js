@@ -36,10 +36,23 @@ $(document).ready(function() {
 
 
   // Show quotes
-    $(document).ready(function() {
-      $('.quoteOne').hide();
-    });    
+     
+    var quotes = $('.text');
+    var quoteIndex = -1;
 
+    function displayNewQuote() {
+        $('#firstQuotes p').hide();
+        quoteIndex++;
+        quotes.eq(quoteIndex % quotes.length)
+        .fadeIn(3000)
+        .delay(500)
+        .fadeOut(1000, displayNewQuote);
+      }
+
+    displayNewQuote();
+
+
+  
 
 }); // end of ready 
 
