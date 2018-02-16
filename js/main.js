@@ -42,14 +42,16 @@ $(document).ready(function() {
 
     function displayNewQuote() {
         $('#firstQuotes p').hide();
+        $('#secondQuotes p').hide();
+        $('#thirdQuotes p').hide();
         quoteIndex++;
         quotes.eq(quoteIndex % quotes.length)
         .fadeIn(3000)
         .delay(500)
         .fadeOut(1200, displayNewQuote);
       }
-
     displayNewQuote();
+
 
 
   
