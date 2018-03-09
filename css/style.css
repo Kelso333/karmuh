@@ -12,34 +12,30 @@ html, body {
 /***** HOME PAGE NAV *****/
 
  .mainLinks ul li {
-   padding: 7px;
+  padding: 7px;
   text-decoration: none;
   font-size: 19.5px;
   font-family: 'Rubik', sans-serif;
   font-weight: 300; 
   display: inline;
   position: relative;
-  top: 20px;
-  left: -77px;
+  top: 30px;
+  left: -20px;
 } 
+
+.testHeader {
+  background-color: transparent;
+}
 
 .logo {
   position: relative;
   top: 23px;
-  left: 757px;
- } 
-
-.logo img {
-  width: 62px;
+  left: 810px;
   height: 55px;
-} 
+}
 
 .bg img {
   width: 100%; 
-}
-
-.navbar-default {
-  background-color: transparent !important;
 }
 
 a.nav-link.scroll {
