@@ -188,9 +188,16 @@ form label {
 textarea {
   position: absolute;
   top: 80px;
-  left: 107px;
+  left: 105px;
   background: transparent;
   color: white;
+  white-space: nowrap;
+}
+
+button {
+  position: relative;
+  top: 415px;
+  right: 395px;
 }
 
 /***** FOOTER PAGE *****/
